@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: '徐彦春的点滴技术'
+title: '徐彦春--点滴技术'
 description: '分享点滴技术'
 keyword: '徐彦春,Java,BigData'
 url: '' # your host
@@ -15,7 +15,7 @@ nav:
 # Author 配置博主信息
 author: '徐彦春'
 nickname: '春春'
-bio: 'JAVAWEB开发者，钻研大数据'
+bio: 'JAVAWEB开发者，热爱大数据'
 avatar: '/assets/img/profile.png'
 
 # Search
@@ -43,6 +43,7 @@ sns:
   weibo: '//weibo.com/3816419290'
   juejin: '//juejin.im/user/5a461af66fb9a045055e75e3'
   github: '//github.com/MrXuyc'
+  zhihu: '//zhihu.com/people/xu-yan-chun-70'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
