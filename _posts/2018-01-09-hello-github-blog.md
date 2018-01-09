@@ -3,7 +3,7 @@ layout: post
 title: 'Hello Blog'
 date: 2018-01-09
 author: MrXuyc
-cover: '/assets/img/hello_bolg.jpg'
+cover: '/assets/img/hello_bolg/hello_bolg.jpg'
 tags: blog
 ---
 
