@@ -29,9 +29,9 @@ alt+shift+F  添加收藏夹
 
 alt+1   esc  编辑区到文件区   文件区到编辑区跳转
 
-##跳转插件  emacsIDEAs
+### 跳转插件  emacsIDEAs
 
-##搜索
+### 搜索
 
 ctrl +N  搜索class文件
 
@@ -41,7 +41,7 @@ ctrl+shift+alt+N  搜索符号
 
 Ctrl+Shift+F    搜搜字符串（全局搜索）
 
-##代码助手
+### 代码助手
 
 ctrl+shift+U  切换大小写
 
@@ -67,7 +67,7 @@ shift+F6   变量rename
 
 ctrl+F6     方法签名修改
 
-##抽取代码
+### 抽取代码
 
 alt+ctrl+v    局部参数抽取
 
@@ -81,7 +81,7 @@ alt+ctrl+m    方法抽取
 
 Split Vertically  水平分屏
 
-##git集成
+### git集成
 
 Previous change  寻找改动地方
 
@@ -89,7 +89,7 @@ alt+ctrl+z      版本撤销
 
 local history   本地历史
 
-##debug
+### debug
 
 ctrl+F8   添加断点
 
@@ -111,7 +111,7 @@ debug context configuration  寻找最小的运行上下文，进行运行
 
 alt+shift+F9    之前的运行列表
 
-##文件操作
+### 文件操作
 
 alt+ctrl+insert   当前目录新建文件
 
@@ -119,7 +119,7 @@ F5  复制文件
 
 F6  移动当前文件
 
-##文本操作
+### 文本操作
 ctrl+shift+c  复制文件路径
 
 ctrl+shift+v  批量复制
@@ -138,7 +138,7 @@ ctrl+i    实现方法
 
 ctrl+o    重写方法   
 
-##补充
+### 补充
 
 Ctrl+Alt+t 选择代码块 try catch  
 
