@@ -2,6 +2,7 @@
 layout: post
 title: 'IntelliJ Idea 常用快捷键列表'
 date: 2018-01-09
+categories: 技术
 author: MrXuyc
 cover: '/assets/img/idea/idea.png'
 tags: Idea
