@@ -168,5 +168,6 @@ input2 = tf.placeholder(tf.float32)
 output = tf.multiply(input1,input2)
 with tf.Session() as session:
     # [array([ 14.], dtype=float32)]
+    # []定义执行操作  feed_dict 字典   
     print(session.run([output],feed_dict={input1:[7.],input2:[2.]}))
 ```
