@@ -9,7 +9,7 @@ tags: tensorflow
 ---
 > tensorflow的MNIST数据集
 
-```
+```python
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -19,7 +19,7 @@ print("packs loaded")
 
 ```
 
-```
+```python
 print("Download and Extract MNIST dataset")
 # 目录
 mnist = input_data.read_data_sets('data/' ,one_hot = True)
@@ -33,7 +33,7 @@ print (mnist.validation.images.shape, mnist.validation.labels.shape)
 ```
 ![](/assets/img/tensorflow/data/mnist/2.jpg)
 
-```
+```python
 # 在训练集中随机取出五条数据的索引
 index = np.random.randint(mnist.train.images.shape[0], size=5)
 trainimg = mnist.train.images
@@ -48,7 +48,7 @@ for i in index:
 ```
 ![](/assets/img/tensorflow/data/mnist/1.jpg)
 
-```
+```python
 # 训练神经网络时，一个batch一个batch进行
 batch_size = 100
 batch_xs, batch_ys = mnist.train.next_batch(batch_size)

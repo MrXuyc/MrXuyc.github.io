@@ -9,7 +9,7 @@ tags: tensorflow
 ---
 > tensorflow逻辑回归模型
 
-```
+```python
 #逻辑回归
 import tensorflow as tf
 import numpy as np

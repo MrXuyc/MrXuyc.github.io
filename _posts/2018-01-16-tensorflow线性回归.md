@@ -17,7 +17,7 @@ tags: tensorflow
 5、使用优化器最小化误差  optimizer.minimize
 6、在session中进行训练
 
-```
+```python
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -42,7 +42,7 @@ plt.scatter(x_data, y_data, c='r')
 ![](/assets/img/tensorflow/data/linear/1.jpg)
 
 
-```
+```python
 # 生成参数W，取值为[-1, 1]间随机数
 W = tf.Variable(tf.random_uniform([1], -1.0, 1.0), name='W')
 # 生成偏移量b

@@ -10,7 +10,7 @@ tags: tensorflow
 > tensorflow基础知识
 
 ## Tensorflow变量
-```
+```python
 # 完成两个变量的相乘操作
 import tensorflow as tf
 
@@ -41,7 +41,7 @@ with tf.Session() as sess:
 
 ## Tensorflow基本操作
 
-```
+```python
 import tensorflow as tf;
 tensor = tf.constant(-1.0,shape=[2,3])
 # float32 类型会减少问题，尽量使用float32
@@ -96,7 +96,7 @@ with tf.Session() as sess:
 
 ## 变量自增操作
 
-```
+```python
 # 初始变量
 state = tf.Variable(0)
 # 定义相加操作
@@ -113,7 +113,7 @@ with tf.Session() as sess:
 
 ## Saver
 
-```
+```python
 # saver.save保存  可以调出复用
 w = tf.Variable([[0.5,1.0]])
 x = tf.Variable([[2.0],[1.0]])
@@ -131,7 +131,7 @@ with tf.Session() as sess:
 
 ## numpy to tensor
 
-```
+```python
 # tf.convert_to_tensor
 import numpy as np
 a = np.zeros((3,3))
@@ -142,7 +142,7 @@ with tf.Session() as sess:
 
 ## saver
 
-```
+```python
 # saver.save保存
 w = tf.Variable([[0.5,1.0]])
 x = tf.Variable([[2.0],[1.0]])
@@ -160,7 +160,7 @@ with tf.Session() as sess:
 
 ## 占位操作
 
-```
+```python
 # 在session中占位
 input1 = tf.placeholder(tf.float32)
 input2 = tf.placeholder(tf.float32)

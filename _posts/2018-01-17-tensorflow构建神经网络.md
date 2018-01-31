@@ -11,7 +11,7 @@ tags: tensorflow
 
 ## 构建神经网络结构
 
-```
+```python
 # 构建神经网络
 import numpy as np
 import tensorflow as tf
@@ -51,7 +51,7 @@ print("NETWORK READY!")
 
 ## 函数定义
 
-```
+```python
 # 运算  前向传播           数据
 def multilayer_perceptron(_X, _weights, _biases):
     # (data*w1 +biases["w1"])   sigmoid函数？ 注意完成后要使用激活函数激活，这里使用sigmoid，一般用ReLU
@@ -75,7 +75,7 @@ init = tf.global_variables_initializer()
 
 ## 运行阶段
 
-```
+```python
 training_epochs = 100
 batch_size = 100
 display_step = 4
